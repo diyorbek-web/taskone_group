@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(./assets/imgone.png);
+  background-position: center 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bdc2c3;
+}
+
+.backimgtwo {
+  width: 100%;
+  margin-top: -100px;
+  z-index: 1;
+}
+
+.navlink {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+.scrollmenu {
+  font-size: 18px;
+  font-family: sans-serif;
+  border-right: 3px solid #d3d8d7;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+  padding: 8px 5px 8px 0;
+}
+.shadow {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  box-shadow: 0 -50px 150px 150px rgba(11, 29, 38); /* 5px sochib */
+}
