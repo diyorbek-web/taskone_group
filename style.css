@@ -36,15 +36,15 @@
   position: absolute;
   z-index: 2;
   width: 100%;
-  box-shadow: 0 -50px 150px 150px rgba(11, 29, 38); /* 5px sochib */
+  box-shadow: 0 -50px 150px 200px rgba(11, 29, 38); /* 5px sochib */
 }
 
-
-.main{
+.main {
   background-color: #0a1a1f;
+  margin-top: -20px;
 }
 
-.level-hiker{
+.level-hiker {
   max-width: 1600px;
   display: flex;
   margin: 0 auto;
@@ -55,59 +55,59 @@
   margin-bottom: 200px;
 }
 
-.level-hiker p{
+.level-hiker p {
   font-family: Gilroy;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0px;
-  color: #FFFFFF;
-  width: 600px;  
-  margin-bottom: 27px;  
+  color: #ffffff;
+  width: 600px;
+  margin-bottom: 27px;
 }
 
-.level-hiker h2{
+.level-hiker h2 {
   font-family: Chronicle Display;
   font-weight: 600;
   font-size: 64px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #FFFFFF;    
+  color: #ffffff;
   margin-bottom: 27px;
   width: 555px;
   margin-top: 30px;
 }
 
-.level-hiker h3{
+.level-hiker h3 {
   font-family: Gilroy;
   font-weight: 800;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 6px;
   text-transform: uppercase;
-  color:#FBD784 ;    
+  color: #fbd784;
   margin-bottom: 27px;
   margin-top: 90px;
 }
 
-.level-hiker h4{
+.level-hiker h4 {
   font-family: Gilroy;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0px;
-  color: #FBD784;    
+  color: #fbd784;
 }
 
-.level-hiker div{
+.level-hiker div {
   padding-left: 100px;
 }
 
-.level-hiker img{
+.level-hiker img {
   margin-top: 50px;
 }
 
-.hiking-gear{
+.hiking-gear {
   max-width: 1600px;
   margin: 0 auto;
   padding: 0 100px;
@@ -116,49 +116,159 @@
   align-items: center;
 }
 
-.hiking-gear p{
+.hiking-gear p {
   font-family: Gilroy;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0px;
-  color: #FFFFFF;
-  width: 580px;  
-  margin-bottom: 27px;  
+  color: #ffffff;
+  width: 580px;
+  margin-bottom: 27px;
 }
 
-.hiking-gear h2{
+.hiking-gear h2 {
   font-family: Chronicle Display;
   font-weight: 600;
   font-size: 64px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #FFFFFF;    
+  color: #ffffff;
   margin-bottom: 27px;
   width: 555px;
 }
 
-.hiking-gear h3{
+.hiking-gear h3 {
   font-family: Gilroy;
   font-weight: 800;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 6px;
   text-transform: uppercase;
-  color:#FBD784 ;    
+  color: #fbd784;
   margin-bottom: 27px;
 }
 
-.hiking-gear h4{
+.hiking-gear h4 {
   font-family: Gilroy;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0px;
-  color: #FBD784; 
+  color: #fbd784;
   margin-bottom: 90px;
 }
 
-.hiking-gear img{
+.hiking-gear img {
   margin-bottom: 50px;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a1a2f;
+  color: #fff;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+.text-content {
+  width: 632;
+  height: 439;
+  top: 141px;
+  left: 150px;
+  gap: 27px;
+}
+
+.number {
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.05);
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  z-index: 0;
+}
+
+.subheading {
+  color: #ffc300;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.read-more {
+  color: #ffc300;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image-content img {
+  width: 566;
+  height: 720;
+  left: 896px;
+}
+
+footer {
+  background-color: #091624;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  font-size: 14px;
+}
+
+footer h3,
+footer h4 {
+  margin: 0 0 10px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-left {
+  width: 30%;
+}
+
+.footer-right {
+  display: flex;
+  gap: 50px;
+}
+
+footer p {
+  margin: 0;
+  color: #bbb;
 }
