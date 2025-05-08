@@ -50,7 +50,7 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  background-color: #0a1a1f;
+  background-color: #0b1d26;
   padding: 0 100px;
   margin-bottom: 200px;
 }
@@ -229,7 +229,7 @@ h2 {
 }
 
 footer {
-  background-color: #091624;
+  background-color: #0b1d26;
   display: flex;
   justify-content: space-between;
   padding: 30px 50px;
